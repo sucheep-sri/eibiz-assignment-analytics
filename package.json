@@ -1,0 +1,39 @@
+{
+  "name": "eibiz-assignment-android",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-busy": "^4.1.0",
+    "async": "^1.5.2",
+    "ejs": "^2.3.4",
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "grunt": "~0.4.5",
+    "grunt-bower-task": "~0.3.4",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-html2js": "~0.2.7",
+    "grunt-injector": "^0.6.1",
+    "grunt-nodemon": "^0.4.1",
+    "grunt-usemin": "^3.1.1",
+    "hapi": "^12.1.0",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "mongoose": "^4.3.6",
+    "path": "^0.12.7",
+    "vision": "^4.0.1"
+  }
+}

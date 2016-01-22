@@ -1,0 +1,26 @@
+{
+  "name": "android",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "SUCHEEP\\sucheep <sucheep@eibiz.co.th>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "jquery-ui": "~1.11.4",
+    "angular-bootstrap": "~0.14.3",
+    "angular-chart.js": "~0.8.8",
+    "Chart.js": "~1.0.2",
+    "hover": "Hover#~2.0.2"
+  }
+}

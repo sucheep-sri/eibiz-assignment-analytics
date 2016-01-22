@@ -1,0 +1,27 @@
+<div class="dashboard-wrapper" ng-init="init()">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header"><h2>Access Method</h2></div>
+      <div class="piechart">
+				<canvas id="pie" class="chart chart-pie" chart-data="data" chart-labels="labels" chart-legend="true"></canvas> 
+      </div>
+      <div class="page-header"><h2>Product Views</h2></div>
+      <div class="myTable">
+      	<table class="table table-bordered">
+      		<thead>
+      			<tr class="table-header">
+	      			<td>Products</td>
+	      			<td>Views</td>
+      			</tr>
+      		</thead>
+      		<tbody>
+      			<tr ng-repeat="product in products | orderBy: '-count'">
+      				<td>{{product._id}}</td>
+      				<td>{{product.count}}</td>
+      			</tr>
+      		</tbody>
+      	</table>
+      </div>
+    </div>
+  </div>
+</div>

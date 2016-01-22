@@ -1,0 +1,24 @@
+<div class="qr-wrapper" ng-init="init()">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header"><h2>QR Access Analytics</h2></div>
+      <section class="header-section">
+				<div class="col-md-6">
+					<h4 class="criteria-header">Show By Month</h4>
+				</div>
+				<div class="col-md-6 btn-col">
+					<div class="btn-group">
+						<button type="button" class="btn btn-me hvr-underline-from-center">Month</button>
+						<button type="button" class="btn btn-me hvr-underline-from-center">Day</button>
+					</div>
+				</div>      	
+      </section>
+
+      <div class="line">
+				<canvas id="line" class="chart chart-line" chart-data="data"
+				  chart-labels="labels" chart-legend="true" chart-series="series">
+				</canvas> 
+      </div>
+    </div>
+  </div>
+</div>
